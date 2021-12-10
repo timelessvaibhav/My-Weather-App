@@ -42,14 +42,22 @@ function getWeatherData(){
 }
 
 function showWeatherdata(data){
-    let {humidity,pressure,wind_speed,sunrise,sunset} = data.current; 
+    let {humidity,pressure,wind_speed,sunrise,sunset,temp,feels_like} = data.current; 
 
-    timezone.innerHTML = 'Time Zone : ' + data.timezone;
+    
     countryEl.innerHTML = 'Your Location : ' + data.lat + 'N ' + data.lon + 'E';
 
     currentweatheritemsEl.innerHTML = `<div class="weather-item">
-    <div>Humidity</div>
-    <div>${humidity}%</div>
+    <div>Current Temperature</div>
+    <div>${temp} &#176 C</div>
+    </div>
+    <div class="weather-item">
+        <div>Real feel</div>
+        <div>${feels_like} &#176 C</div>
+    </div>
+    <div class="weather-item">
+        <div>Humidity</div>
+        <div>${humidity} %</div>
     </div>
     <div class="weather-item">
         <div>Pressure</div>
@@ -77,6 +85,8 @@ function showWeatherdata(data){
             <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="Weather icon" class="w-icon">
             <div class="other">
                 <div class="day">Today</div>
+                <br>
+                <div class="description-today"> ${day.weather[0].main}</div>
                 <div class="temp">Max : ${day.temp.max} &#176; C</div>
                 <div class="temp">Min : ${day.temp.min}&#176; C</div>
             </div>`
@@ -86,6 +96,8 @@ function showWeatherdata(data){
             otherdayforecast+=`
             <div class="weather-forecast-item">
             <div class="day">${window.moment(day.dt*1000).format('ddd')}</div>
+            <br>
+            <div class="description-otherdays"> ${day.weather[0].main}</div>
             <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="Weather icon" class="w-icon">
             <div class="temp">Max : ${day.temp.max}&#176; C</div>
             <div class="temp">Min : ${day.temp.min}&#176; C</div>
