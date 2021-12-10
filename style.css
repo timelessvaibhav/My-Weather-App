@@ -366,6 +366,9 @@ body{
     .current-info .others{
         margin: 5px;
     }
+    .current-info .others .weather-item{
+        padding: 5px;
+    }
     .future-forecast .today .temp{
         font-size: 15px;
         text-align: center;
