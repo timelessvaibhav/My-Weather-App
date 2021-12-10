@@ -66,14 +66,6 @@ function showWeatherdata(data){
     <div class="weather-item">
         <div>Wind Speed</div>
         <div>${wind_speed} m/s</div>
-    </div>
-    <div class="weather-item">
-        <div>Sunrise</div>
-        <div>${window.moment(sunrise*1000).format('HH:mm a')}</div>
-    </div>
-    <div class="weather-item">
-        <div>Sunset</div>
-        <div>${window.moment(sunset*1000).format('HH:mm a')}</div>
     </div>`;
 
     let otherdayforecast = '';
