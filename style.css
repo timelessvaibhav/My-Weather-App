@@ -468,6 +468,7 @@ body{
     .future-forecast{
         justify-content: start;
         align-items: none;
+        padding :10px;
         font-size: 15px;
         overflow-x: scroll;
         overflow-y: scroll;
@@ -499,7 +500,7 @@ body{
     .date-container .date{
         font-size: 26px;
         margin-bottom: -40px;
-        margin-top: -30px;
+        margin-top: -60px;
         padding: 50px;
     }
     .current-info .others{
@@ -512,8 +513,8 @@ body{
         text-align: center;
     }
     .place-container .country{
-        padding: 30px;
-        margin-left: 30px;
+        padding: 15px;
+        margin-left: 50px;
     }
     .description-today{
         font-size: 20px;
