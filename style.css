@@ -23,7 +23,6 @@ body{
 }
 .date-container{
     font-weight: 100;
-    margin-left: -45px;
 }
 .date-container .time{
     font-size: 70px;
@@ -57,7 +56,6 @@ body{
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
-    margin-left: -3px;
     border: 1px solid #eee;
     font-weight: 200;
 }
