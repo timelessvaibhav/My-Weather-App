@@ -23,6 +23,7 @@ body{
 }
 .date-container{
     font-weight: 100;
+    margin-left: -45px;
 }
 .date-container .time{
     font-size: 70px;
@@ -34,7 +35,7 @@ body{
 .date-container .date{
     font-size: 25px;
     font-weight: 200;
-    padding-right: 42px;
+    padding-right: 65px;
     margin-bottom: 10px;
 }
 .place-container{
@@ -56,6 +57,7 @@ body{
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
+    margin-left: -3px;
     border: 1px solid #eee;
     font-weight: 200;
 }
@@ -96,7 +98,7 @@ body{
     padding: 6px;
 }
 .future-forecast .today .day{
-    padding: 5px 15px;
+    padding: 5px 35px;
     background: #3c3c44;
     border-radius: 50px;
     text-align: center;
