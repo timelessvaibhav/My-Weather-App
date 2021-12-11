@@ -169,17 +169,18 @@ body{
     }
     .date-container .time{
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
     }
     .date-container .date{
-        font-size: 15px;
+        font-size: 13px;
         margin-bottom: -37px;
+        margin-left: -9px;
         margin-top: -55px;
         padding: 46px;
     }
     .current-info .others{
         padding: 10px;
-        font-size: 14px;
+        font-size: 13px;
     }
     .place-container .time-zone{
         margin: 5px;
@@ -189,7 +190,7 @@ body{
     }
     .place-container .country{
         padding: 8px;
-        margin-left: 40px;
+        margin-left: 29px;
         font-size: 11px;
     }
     .description-today{
@@ -276,7 +277,7 @@ body{
         justify-content: start;
         align-items: none;
         font-size: 15px;
-        padding: 12px;
+        padding: 9px;
         overflow-x: scroll;
         overflow-y: scroll;
     }
@@ -289,7 +290,7 @@ body{
     .future-forecast .today .day{
         padding: 5px 79px;
         background: #3c3c4400;
-        font-size: 19px;
+        font-size: 14px;
     }
     .container{
         padding: 20px;
@@ -306,11 +307,12 @@ body{
     }
     .date-container .time{
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
     }
     .date-container .date{
-        font-size: 23px;
-        margin-bottom: -37px;
+        font-size: 18px;
+        margin-bottom: -50px;
+        margin-left: 18px;
         margin-top: -55px;
         padding: 50px;
     }
@@ -325,7 +327,8 @@ body{
     }
     .place-container .country{
         padding: 10px;
-        margin-left: 50px;
+        margin-left: 70px;
+        font-size: 11px;
     }
     .description-today{
         font-size: 15px;
@@ -337,7 +340,7 @@ body{
 
 @media screen and (min-width:371px) and (max-width:376px) {
     *{
-        margin: -2px;
+        margin: -3px;
         padding: 0;
         box-sizing: border-box;
     }
@@ -358,7 +361,7 @@ body{
     .future-forecast .today .day{
         padding: 5px 79px;
         background: #3c3c4400;
-        font-size: 19px;
+        font-size: 17px;
     }
     .container{
         padding: 20px;
@@ -378,16 +381,19 @@ body{
     }
     .date-container .time{
         text-align: center;
-        font-size: 60px;
+        font-size: 55px;
     }
     .date-container .date{
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: -37px;
-        margin-top: -40px;
+        margin-top: -57px;
+        margin-left: 10px;
         padding: 50px;
     }
     .current-info .others{
         padding: 25px;
+        margin: 0;
+        margin-left: 10px;
     }
     .place-container .time-zone{
         margin: 5px;
@@ -498,7 +504,7 @@ body{
         text-align: center;
     }
     .date-container .date{
-        font-size: 26px;
+        font-size: 23px;
         margin-bottom: -40px;
         margin-top: -60px;
         padding: 50px;
@@ -554,10 +560,11 @@ body{
         text-align: center;
     }
     .date-container .time{
+        font-size: 60px;
         text-align: center;
     }
     .date-container .date{
-        font-size: 24px;
+        font-size: 21px;
         margin-bottom: -40px;
         margin-top: -60px;
         padding: 50px;
@@ -565,6 +572,7 @@ body{
     }
     .current-info .others{
         padding: 25px;
+        margin-left: 25px;
     }
     .place-container .time-zone{
         margin: 5px;
@@ -574,7 +582,7 @@ body{
     }
     .place-container .country{
         padding: 30px;
-        margin-left: 30px;
+        margin-left: 45px;
         margin-top: -20px;
     }
     .description-today{
