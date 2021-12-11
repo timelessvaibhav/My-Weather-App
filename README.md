@@ -4,6 +4,20 @@ A completely **Responsive** weather application built using **HTML, CSS, JavaScr
 <br><br>
 **Kindly enable your GPS/location and allow access while using the app on your devices**
 
-# Application Preview
+## Application Preview
 
 https://timelessvaibhav.github.io/My-Weather-App/
+
+## Preview Screenshots
+
+### Desktop
+
+<img src = "https://github.com/timelessvaibhav/My-Weather-App/blob/main/Preview%20Screenshots/Screenshot%20(188).png">
+
+### Mobile Phone 
+
+<p float = "left">
+  <img src = "https://github.com/timelessvaibhav/My-Weather-App/blob/main/Preview%20Screenshots/Screenshot_2021-12-11-20-37-21-200_com.android.chrome.jpg" width = "393" height = "851">
+  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+  <img src = "https://github.com/timelessvaibhav/My-Weather-App/blob/main/Preview%20Screenshots/Screenshot_2021-12-11-20-38-25-135_com.android.chrome.jpg" width = "393" height = "851">
+</p>
