@@ -19,9 +19,8 @@ const date = time.getDate();
 const hour = time.getHours();
 const minutes = time.getMinutes();
 const ampm = hour>=12? 'PM' : 'AM'; 
-const hoursin12hrformat = hour>=13 ? hour%12 : hour;
 
-timeEl.innerHTML = (hoursin12hrformat<10 ? '0'+hoursin12hrformat : hoursin12hrformat) + ":" + (minutes<10 ? '0'+minutes : minutes) + ' ' + `<span id="am-pm">${ampm}</span>`
+timeEl.innerHTML = (hour<10 ? "0"+hour : hour) + ":" + (minutes<10 ? "0"+minutes : minutes);
 dateEl.innerHTML = days[day] + ', ' + date +' ' +  months[month];
 
 }, 1000);

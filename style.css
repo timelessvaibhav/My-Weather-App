@@ -239,13 +239,14 @@ body{
     }
     .date-container .time{
         text-align: center;
-        font-size: 50px;
+        font-size: 42px;
     }
     .date-container .date{
         font-size: 14px;
         margin-bottom: -37px;
         margin-top: -55px;
         padding: 50px;
+        padding-left: 78px;
     }
     .current-info .others{
         padding: 10px;
@@ -315,6 +316,7 @@ body{
         margin-left: 18px;
         margin-top: -55px;
         padding: 50px;
+        padding-left: 70px;
     }
     .current-info .others{
         padding: 25px;
@@ -390,6 +392,7 @@ body{
         margin-top: -57px;
         margin-left: 10px;
         padding: 50px;
+        padding-left: 72px;
     }
     .current-info .others{
         padding: 25px;
@@ -492,10 +495,12 @@ body{
         font-size: 19px;
     }
     .container{
-        padding: 20px;
+        padding: 32px;
     }
     .current-info .others{
         margin: 5px;
+        margin-left: 15px;
+        padding: 25px;
     }
     .future-forecast .today .temp{
         font-size: 20px;
@@ -503,16 +508,14 @@ body{
     }
     .date-container .time{
         text-align: center;
-        font-size: 65px;
+        font-size: 60px;
     }
     .date-container .date{
         font-size: 20px;
         margin-bottom: -40px;
         margin-top: -60px;
         padding: 50px;
-    }
-    .current-info .others{
-        padding: 25px;
+        padding-left: 70px;
     }
     .place-container .time-zone{
         margin: 5px;
@@ -522,7 +525,7 @@ body{
     }
     .place-container .country{
         padding: 15px;
-        margin-left: 50px;
+        margin-left: 35px;
     }
     .description-today{
         font-size: 20px;
@@ -562,7 +565,7 @@ body{
         text-align: center;
     }
     .date-container .time{
-        font-size: 60px;
+        font-size: 55px;
         text-align: center;
     }
     .date-container .date{
@@ -570,6 +573,7 @@ body{
         margin-bottom: -40px;
         margin-top: -60px;
         padding: 50px;
+        padding-left: 70px;
         margin-left: 30px;
     }
     .current-info .others{
@@ -584,7 +588,7 @@ body{
     }
     .place-container .country{
         padding: 30px;
-        margin-left: 45px;
+        margin-left: 40px;
         margin-top: -20px;
     }
     .description-today{
